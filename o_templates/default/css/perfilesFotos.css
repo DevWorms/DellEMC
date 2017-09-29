@@ -1,0 +1,32 @@
+.estiloFoto1
+{
+	border-radius: 173px;
+    filter: grayscale(100%);
+}
+
+.estiloFoto1:hover
+{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	-o-transform:scale(1.25);
+	transform:scale(1.25);
+	transition: all 200ms ease-in;
+}
+
+.estiloFoto2:hover
+{
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	-o-transform:scale(1.25);
+	transform:scale(1.25);
+	transition: all 200ms ease-in;
+}
+
+.estiloFoto2
+{
+	border-radius: 210px;
+    filter: grayscale(100%);
+    width: 295px;
+}
