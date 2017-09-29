@@ -1,32 +1,61 @@
 .estiloFoto1
 {
-	border-radius: 173px;
+    border-radius: 173px;
+
     filter: grayscale(100%);
 }
 
 .estiloFoto1:hover
 {
-	-webkit-transform:scale(1.1);
-	-moz-transform:scale(1.1);
-	-ms-transform:scale(1.1);
-	-o-transform:scale(1.1);
-	transform:scale(1.1);
-	transition: all 200ms linear;
+    transition: all 200ms linear;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .estiloFoto2:hover
 {
-	-webkit-transform:scale(1.1);
-	-moz-transform:scale(1.1);
-	-ms-transform:scale(1.1);
-	-o-transform:scale(1.1);
-	transform:scale(1.1);
-	transition: all 200ms linear;
+    transition: all 200ms linear;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .estiloFoto2
 {
-	border-radius: 210px;
-    filter: grayscale(100%);
     width: 295px;
+
+    border-radius: 210px;
+
+    filter: grayscale(100%);
+}
+
+.relativee
+{
+    position: relative;
+}
+
+.overlay-base-div
+{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 50px;
+
+    display: inline;
+}
+
+.overlay-div
+{
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    left: 50px;
+	width: 380px;
+	padding: 15px 10px 15px 0;
+    display: inline;
 }
