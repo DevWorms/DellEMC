@@ -3,6 +3,7 @@
     border-radius: 173px;
 
     filter: grayscale(100%);
+
 }
 
 .estiloFoto1:hover
@@ -34,6 +35,27 @@
     filter: grayscale(100%);
 }
 
+.opac
+{    
+    filter: brightness(0.2);
+    border-radius: 173px;
+
+}
+
+::webkit-scrollbar
+{
+    width: 8px;
+    background-color: red;
+}
+
+
+div.scrollDescrip {
+
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
 .relativee
 {
     position: relative;
@@ -42,6 +64,16 @@
 .overlay-base-div
 {
     position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 50px;
+
+    display: inline;
+}
+
+.overlay-base-div-movil
+{
+
     z-index: 1;
     top: 10px;
     left: 50px;
@@ -59,3 +91,6 @@
 	padding: 15px 10px 15px 0;
     display: inline;
 }
+
+
+
