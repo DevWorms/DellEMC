@@ -15,15 +15,32 @@
     <link rel="stylesheet" type="text/css" href="o_templates/default/css/perfilesFotos.css">
     <link rel="stylesheet" type="text/css" href="o_templates/default/css/descripcion.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <style type="text/css">
+      div.scrollPerfil {
+        width: 100px;
+        height: 100px;
+        overflow: scroll;
+        margin-top: -245px;
+        position: relative;
+        width: 266px;
+        height: 213px;
+        color: white;
+        overflow-x:hidden;
+      }
+    </style>
     <script>
-      function myFunction() {
-          document.getElementById("contornoImagen1").innerHTML = "<div><img class='img-responsive opac' src='o_templates/default/img/2462cfd.jpg'></div>"+
-          "<div id='contenedor' style='width:100%;'>Hola<div class='scrollDescrip' style='color:white; filter: brightness(1); position:absolute; margin-top:-251px; width: 242px; height: 230px; overflow-x:hidden;'>Egresado de la Universidad La Salle en la carrera de Licenciatura en Ingeniería Cibernética y Sistemas Computacionales cuenta con un MBA en la Universidad de Duke."+ 
+      function speaker1() {
+          document.getElementById("contornoImagen1").innerHTML = "<div><img class='img-responsive opac1' src='o_templates/default/img/2462cfd.jpg'></div>"+
+          "<div id='contenedor' style='width:100%;'><center><div class='scrollPerfil'>Egresado de la Universidad La Salle en la carrera de Licenciatura en Ingeniería Cibernética y Sistemas Computacionales cuenta con un MBA en la Universidad de Duke."+ 
+            "Francisco es un “Disruptive Thinker” en búsqueda del qué y cómo en nuevas oportunidades y retos personales y profesionales. Cuenta con 24 años de experiencia en IT, Telecomunicaciones, Retail y Aeronáutica así como Business Intelligence, Analytics y IoT. "+
+              "Su carrera de 12 años en Dell EMC se ha desempeñado en puestos como Systems Consultant, Customer Systems Engineer para la división de ESG, LATAM Enterprise Technologist con foco en Big Data, HPC y IoT hasta su rol actual como LATAM Server Brand Manager para LATAM y México.</div></center></div>";
+      }
 
-"Francisco es un “Disruptive Thinker” en búsqueda del qué y cómo en nuevas oportunidades y retos personales y profesionales. Cuenta con 24 años de experiencia en"+ "IT, Telecomunicaciones, Retail y Aeronáutica así como Business Intelligence, Analytics y IoT. "+
-
-"Su carrera de 12 años en Dell EMC se ha desempeñado en puestos como Systems Consultant, Customer Systems Engineer para la división de ESG, LATAM Enterprise "+"Technologist con foco en Big Data, HPC y IoT hasta su rol actual como LATAM Server Brand Manager para LATAM y México."+
-          "</div></div>";
+       function speaker2() {
+          document.getElementById("contornoImagen2").innerHTML = "<div><center><img class='img-responsive opac2' src='o_templates/default/img/Vivian-Lan-Agami-1.jpg'><center></div>"+
+          "<div id='contenedor' style='width:100%;'><center><div class='scrollPerfil'>Egresado de la Universidad La Salle en la carrera de Licenciatura en Ingeniería Cibernética y Sistemas Computacionales cuenta con un MBA en la Universidad de Duke."+ 
+            "Francisco es un “Disruptive Thinker” en búsqueda del qué y cómo en nuevas oportunidades y retos personales y profesionales. Cuenta con 24 años de experiencia en IT, Telecomunicaciones, Retail y Aeronáutica así como Business Intelligence, Analytics y IoT. "+
+              "Su carrera de 12 años en Dell EMC se ha desempeñado en puestos como Systems Consultant, Customer Systems Engineer para la división de ESG, LATAM Enterprise Technologist con foco en Big Data, HPC y IoT hasta su rol actual como LATAM Server Brand Manager para LATAM y México.</div></center></div>";
       }
     </script>
   </head>
@@ -292,7 +309,7 @@
           rol actual como LATAM Server Brand Manager para LATAM y México. </p>
       </div>
       <div class="col-xs-12 col-md-4 speaker-photo text-center" nvs-animation-type="bounceInRight">
-        <div id="contornoImagen1" onclick="myFunction();">
+        <div id="contornoImagen1" onclick="speaker1();">
           <img class="img-responsive estiloFoto1" src="o_templates/default/img/2462cfd.jpg"> 
         </div>
         
@@ -333,7 +350,10 @@
           aplicación en términos de la innovación. </p>
       </div>
       <div class="col-xs-12 col-md-4 speaker-photo text-center" nvs-animation-type="bounceInRight">
-        <img class="img-responsive estiloFoto2" src="o_templates/default/img/Vivian-Lan-Agami-1.jpg">
+        <div id="contornoImagen2" onclick="speaker2();">
+          <img class="img-responsive estiloFoto2" src="o_templates/default/img/Vivian-Lan-Agami-1.jpg">
+        </div>
+        
       </div>
     </div>
     <!-- END SPEAKERS -->

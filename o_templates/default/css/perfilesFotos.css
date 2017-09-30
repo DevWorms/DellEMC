@@ -1,3 +1,23 @@
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #626d83;;
+}
+
 .estiloFoto1
 {
     border-radius: 173px;
@@ -35,10 +55,19 @@
     filter: grayscale(100%);
 }
 
-.opac
+.opac1
 {    
     filter: brightness(0.2);
     border-radius: 173px;
+
+}
+
+.opac2
+{    
+    filter: brightness(0.06);
+    border-radius: 200px;
+    width: 300px;
+    margin-left: 8px;
 
 }
 
@@ -46,14 +75,6 @@
 {
     width: 8px;
     background-color: red;
-}
-
-
-div.scrollDescrip {
-
-    width: 100px;
-    height: 100px;
-    overflow: scroll;
 }
 
 .relativee
