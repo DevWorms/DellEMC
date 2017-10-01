@@ -283,12 +283,12 @@
         <div id="contornoImagen1">
           
           <div id="speaker-1">
-            <img class="img-responsive estiloFoto1" src="o_templates/default/img/2462cfd.jpg"> 
+            <img class="estiloFoto" src="o_templates/default/img/2462cfd.jpg"> 
           </div>
           
           <div id="speaker-1_info" style="display: none;">
             <div>
-              <img class='img-responsive opac1' src='o_templates/default/img/2462cfd.jpg'>
+              <img class='opac' src='o_templates/default/img/2462cfd.jpg'>
             </div>
             <div id='contenedor' style='width:100%;' align="center">
               <div class='scrollPerfil'>
@@ -314,12 +314,12 @@
         <div id="contornoImagen2">
           
           <div id="speaker-2">
-            <img class="img-responsive estiloFoto2" src="o_templates/default/img/Vivian-Lan-Agami-1.jpg">
+            <img class="estiloFoto" src="o_templates/default/img/Vivian-Lan-Agami-1.jpg">
           </div>
 
           <div id="speaker-2_info" style="display: none;">
             <div>
-              <img class='img-responsive opac2' src='o_templates/default/img/Vivian-Lan-Agami-1.jpg'>
+              <img class='opac' src='o_templates/default/img/Vivian-Lan-Agami-1.jpg'>
             </div>
             <div id='contenedor' style='width:100%;' align="center">
               <div class='scrollPerfil'>
@@ -512,33 +512,31 @@
         state_2 = true;
         
         $('#contornoImagen1').click(function() {
-                
-                if (state_1 == true) {
-                    $('#speaker-1').hide(500);
-                    $('#speaker-1_info').show(500);
-                    state_1 = false;
-                    } 
+          if (state_1 == true) {
+              $('#speaker-1').hide(250);
+              $('#speaker-1_info').show(250);
+              state_1 = false;
+              } 
 
-                    else if (state_1 == false) {
-                      $('#speaker-1_info').hide(500);
-                      $('#speaker-1').show(500);
-                      state_1 = true;
-                    }
+              else if (state_1 == false) {
+                $('#speaker-1_info').hide(250);
+                $('#speaker-1').show(250);
+                state_1 = true;
+              }
         });
 
         $('#contornoImagen2').click(function() {
-                
-                if (state_2 == true) {
-                    $('#speaker-2').hide(500);
-                    $('#speaker-2_info').show(500);
-                    state_2 = false;
-                  } 
+          if (state_2 == true) {
+              $('#speaker-2').hide(250);
+              $('#speaker-2_info').show(250);
+              state_2 = false;
+            } 
 
-                  else if (state_2 == false) {
-                    $('#speaker-2_info').hide(500);
-                    $('#speaker-2').show(500);
-                    state_2 = true;
-                  }
+            else if (state_2 == false) {
+              $('#speaker-2_info').hide(250);
+              $('#speaker-2').show(250);
+              state_2 = true;
+            }
         });
       });
     </script>
