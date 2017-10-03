@@ -27,6 +27,8 @@
         color: white;
         overflow-x:hidden;
       }
+
+
     </style>
   </head>
   <body>
@@ -52,10 +54,15 @@
           
       </video>
 
-      <div id="letraVideoMayor750">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
+      <span class="fly-in-text desa">
+        <div id="letraVideoMayor750">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
+      </span>
 
-      <div id="letraVideoMenor750">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
-  
+      
+      <span class="fly-in-text desa">
+        <div id="letraVideoMenor750">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
+      </span>
+      
     </div>
     
 
@@ -536,6 +543,15 @@
             }
         });
       });
+
+      $(function() {
+                
+                setTimeout(function() {
+                    $('.fly-in-text').removeClass('desa');
+                }, 10000);
+                
+            })();
     </script>
+
   </body>
 </html>

@@ -58,3 +58,12 @@
         display: none;
     }
 }
+
+.fly-in-text  {
+    opacity: 0;
+    transition: all 2.5s ease;
+}
+
+.fly-in-text.desa {
+    opacity: 1;
+}
