@@ -6,9 +6,7 @@
 }
 #letraVideoMayor750
 {
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
-    font-weight: bold;
 
     position: absolute;
     z-index: 1;
@@ -20,17 +18,15 @@
     transform: translateX(-50%) translateY(-50%);
 
     color: #15a6df;
-    border-radius: 30px;
+    border-radius: 10px;
     background: rgba(0, 0, 0, .82);
     letter-spacing: 26px;
-    width: 568px;
+    width: 680px;
 }
 
 #letraVideomenor1000
 {
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 27px;
-    font-weight: bold;
 
     position: absolute;
     z-index: 1;
@@ -45,7 +41,7 @@
     border-radius: 30px;
     background: rgba(0, 0, 0, .82);
     letter-spacing: 26px;
-    width: 568px;
+    width: 680px;
 }
 
 .fondoLetraVideo{
@@ -83,15 +79,13 @@
 
 #letraVideoMenor750
 {
-    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 21px;
-    font-weight: bold;
     color: white;
     
 }
 .letraSegunda{
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: normal;
     font-size: 19px;
     font-style: normal;
     font-weight: normal;
