@@ -10,7 +10,7 @@
 
     position: absolute;
     z-index: 1;
-    top:  228%;
+    top:  55px;
     left: 0%;
 
     padding: 20px;
@@ -30,7 +30,7 @@
 
     position: absolute;
     z-index: 1;
-    top: 152%;
+    top: 62px;
     left: 260%;
 
     padding: 20px;
@@ -48,7 +48,7 @@
     
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 329px;
     left: 37%;
 
     padding: 20px;
@@ -65,7 +65,7 @@
     
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 354px;
     left: 40%;
 
     padding: 20px;
@@ -195,7 +195,7 @@
     font-size: 26.02px;
 
     position: absolute;
-    top: 77%;
+    top: 648px;
     left: 25%;
 
     display: inline-block;
@@ -224,7 +224,7 @@
     font-size: 26.02px;
 
     position: absolute;
-    top: 21%;
+    top: 187px;
     left: 30%;
 
     display: inline-block;
@@ -252,7 +252,7 @@
     font-size: 18px !important;
 
     position: absolute;
-    top: 29%;
+    top: 239px;
     left: 50%;
 
     display: inline-block;
