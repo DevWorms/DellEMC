@@ -10,18 +10,18 @@
 
     position: absolute;
     z-index: 1;
-    top:  55px;
-    left: 0%;
+    top: 55px;
+    left: 0;
 
+    width: 680px;
     padding: 20px;
 
     transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 26px;
 
     color: #15a6df;
     border-radius: 10px;
     background: rgba(0, 0, 0, .82);
-    letter-spacing: 26px;
-    width: 680px;
 }
 
 #letraVideomenor1000
@@ -33,19 +33,19 @@
     top: 62px;
     left: 260%;
 
+    width: 680px;
     padding: 20px;
 
     transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 26px;
 
     color: #15a6df;
     border-radius: 30px;
     background: rgba(0, 0, 0, .82);
-    letter-spacing: 26px;
-    width: 680px;
 }
 
-.fondoLetraVideo{
-    
+.fondoLetraVideo
+{
     position: absolute;
     z-index: 1;
     top: 329px;
@@ -55,14 +55,12 @@
 
     transform: translateX(-50%) translateY(-50%);
 
-    
     border-radius: 30px;
     background: rgba(0, 0, 0, .82);
 }
 
-.fondoLetraVideoMenos1000{
-
-    
+.fondoLetraVideoMenos1000
+{
     position: absolute;
     z-index: 1;
     top: 354px;
@@ -72,7 +70,6 @@
 
     transform: translateX(-50%) translateY(-50%);
 
-    
     border-radius: 30px;
     background: rgba(0, 0, 0, .82);
 }
@@ -80,15 +77,18 @@
 #letraVideoMenor750
 {
     font-size: 21px;
+
     color: white;
-    
 }
-.letraSegunda{
-    color: white;
-    letter-spacing: normal;
+.letraSegunda
+{
     font-size: 19px;
-    font-style: normal;
     font-weight: normal;
+    font-style: normal;
+
+    letter-spacing: normal;
+
+    color: white;
 }
 
 /* Letras alado de la foto 750*/
@@ -274,12 +274,15 @@
     background-color: black;
 }
 
-.textoOctubre{
+.textoOctubre
+{
     letter-spacing: 3px;
 }
 
-.textoGuad{
+.textoGuad
+{
     letter-spacing: 3px;
+
     color: white;
 }
 
@@ -293,4 +296,9 @@
     padding: 13px 28px;
 
     text-decoration: none;
+}
+
+.delay
+{
+    animation-delay: 4.2s;
 }
