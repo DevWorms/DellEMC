@@ -30,8 +30,8 @@
 
     position: absolute;
     z-index: 1;
-    top: 51%;
-    left: 0%;
+    top: 152%;
+    left: 260%;
 
     padding: 20px;
 
@@ -49,7 +49,7 @@
     position: absolute;
     z-index: 1;
     top: 40%;
-    left: 34%;
+    left: 37%;
 
     padding: 20px;
 
@@ -117,7 +117,7 @@
 }
 /* Registro y opacidad del título*/
 
-@media screen and (max-width: 920px)
+@media screen and (max-width: 1050px)
 {
     a#registro_920Max
     {
@@ -125,7 +125,7 @@
     }
 }
 
-@media screen and (min-width: 921px)
+@media screen and (min-width: 1051px)
 {
     a#registro_920Min
     {
@@ -152,7 +152,7 @@
 
 /* Medias de los mensajes */
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 1050px)
 {
     div#mensaje1000
     {
@@ -160,7 +160,7 @@
     }
 }
 
-@media screen and (min-width: 1001px)
+@media screen and (min-width: 1051px)
 {
     div#mensaje1000Menos
     {
@@ -195,7 +195,7 @@
     font-size: 26.02px;
 
     position: absolute;
-    top: 66%;
+    top: 73%;
     left: 25%;
 
     display: inline-block;
@@ -272,6 +272,15 @@
     color: #15a6df;
     border: solid #15a6df;
     background-color: black;
+}
+
+.textoOctubre{
+    letter-spacing: 3px;
+}
+
+.textoGuad{
+    letter-spacing: 3px;
+    color: white;
 }
 
 .video_registro920Max:hover,
