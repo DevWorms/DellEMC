@@ -27,8 +27,6 @@
         color: white;
         overflow-x:hidden;
       }
-
-
     </style>
   </head>
   <body>
@@ -54,15 +52,17 @@
           
       </video>
 
-      <span class="fly-in-text desa">
-        <div id="letraVideoMayor750">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
-      </span>
+        <div id="letraVideoMayor750" class="fly-in-text desa">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
 
-      
-      <span class="fly-in-text desa">
-        <div id="letraVideoMenor750">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
-      </span>
-      
+        <div id="letraVideoMenor750" class="fly-in-text desa">SERVIDORES CREADOS PARA DESARROLLAR SU NEGOCIO</div>
+
+        <a href="#formumarioRegistro" class="video_registro920Max" id="registro_920Max">REGÍSTRESE AHORA</a>
+
+        <a href="#formumarioRegistro" class="video_registro920min" id="registro_920Min">REGÍSTRESE AHORA</a>
+
+        <a href="#formumarioRegistro" class="video_registro580" id="registro_580n">REGÍSTRESE AHORA</a>
+
+
     </div>
     
 
@@ -397,7 +397,7 @@
         <div class="logos">
           <div class="container text-center">
             <div>
-              <h4 class="subtitle-border" nvs-animation-type="bounceInDown">REGISTRE
+              <h4 id="formumarioRegistro" class="subtitle-border" nvs-animation-type="bounceInDown">REGISTRE
                 AQUÍ SU PARTICIPACIÓN</h4>
             </div>
           </div>
@@ -546,11 +546,52 @@
 
       $(function() {
                 
-                setTimeout(function() {
-                    $('.fly-in-text').removeClass('desa');
-                }, 10000);
+        setTimeout(function() {
+          $('.fly-in-text').removeClass('desa');
+        }, 10000);
                 
-            })();
+      })();
+
+
+    </script>
+    <!-- ScrollDown hasta el formulario -->
+    <script type="text/javascript">
+      // Select all links with hashes
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+          // On-page links
+          if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+            && 
+            location.hostname == this.hostname
+          ) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000, function() {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) { // Checking if the target was focused
+                  return false;
+                } else {
+                  $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                };
+              });
+            }
+          }
+        });
     </script>
 
   </body>
