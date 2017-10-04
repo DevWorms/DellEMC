@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
 @font-face
 {
     font-family: 'DellReplica Light';
@@ -20,6 +22,8 @@
 html
 {
     width: 100%;
+    font-family: 'Roboto', sans-serif !important;
+
 }
 
 body
